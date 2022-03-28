@@ -230,9 +230,9 @@ h5 {
 }
 
 /* media query */
-@media only screen and (min-width: 380px) {
+@media (max-width: 380px) {
   .topBox {
-    width: 80vw;
+    width: 100vw;
     padding: 6%;
   }
 
@@ -243,8 +243,8 @@ h5 {
   }
 
   .img {
-    top: 40%;
-    left: 15%;
+    top: 30%;
+    left: 8%;
   }
 
   .heading {
