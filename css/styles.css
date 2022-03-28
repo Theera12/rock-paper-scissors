@@ -230,7 +230,7 @@ h5 {
 }
 
 /* media query */
-@media only screen and (max-width: 380px) {
+@media only screen and (min-width: 380px) {
   .topBox {
     width: 80vw;
     padding: 6%;
