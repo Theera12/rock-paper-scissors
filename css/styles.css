@@ -230,7 +230,7 @@ h5 {
 }
 
 /* media query */
-@media (max-width: 380px) {
+@media only screen and (max-width: 380px) {
   .topBox {
     width: 100vw;
     padding: 6%;
@@ -244,7 +244,7 @@ h5 {
 
   .img {
     top: 30%;
-    left: 8%;
+    left: 10%;
   }
 
   .heading {
