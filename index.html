@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+</head>
+
+<main>
+
+<body>
+  <div class="topBox">
+    <div class="heading">
+      <h1>ROCK</h1>
+      <h1>PAPER</h1>
+      <h1>SCISSORS</h1>
+    </div>
+    <div class="score">
+      <h4>SCORE</h6>
+        <p id="currentScore">0</p>
+    </div>
+  </div>
+  <img src="images\bg-triangle.svg" class="img" alt="">
+  <div class="bottomBox" id ="container">
+
+    <div class="child1">
+
+      <button type="button" class="btn-child1 btn playerSelectBtn"  value ="paper" id = "paper">
+        <!-- <img src="images\icon-paper.svg" alt="paper image"> -->
+      </button>
+      <button type="button" class="btn-child2 btn playerSelectBtn" value ="rock" id = "rock">
+        <!-- <img src="images\icon-rock.svg" alt="rock image"> -->
+      </button>
+    </div>
+
+    <div class="child2">
+      <button type="button" class="btn-child3 btn playerSelectBtn" value ="scissors" id = "scissors">
+        <!-- <img src="images\icon-scissors.svg" alt="scissors image"> -->
+      </button>
+
+    </div>
+
+  </div>
+
+  <div class="containerChoice">
+    <div class="choiceChild1 choiceheading">
+      <h3>YOU PICKED</h3>
+      <h3>THE HOUSE PICKED</h3>
+    </div>
+    <div class="choiceChild2">
+      <button type="button" name="button"class="btn playerChoice" id ="plays"></button>
+      <div class="endResult">
+        <h2 id="status"></h2>
+        <button type="button" class="playAgainBtn" name="button">PLAY AGAIN</button>
+      </div>
+      <button type="button" name="button" class ="btn houseChoice" id ="computer" ></button>
+    </div>
+  </div>
+
+  <div class="rulePage">
+    <div class="ruleChild">
+    <h5>RULES</h5>
+    <button type="button" name="button" class="ruleBtn">X</button>
+  </div>
+      <img src="images/image-rules.svg" alt="" class="ruleImg">
+  </div>
+  <footer class="rules">
+    <button type="button" class="btn-rules ">RULES</button>
+  </footer>
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script src="index.js" charset="utf-8"></script>
+</body>
+</main>
+
+</html>
